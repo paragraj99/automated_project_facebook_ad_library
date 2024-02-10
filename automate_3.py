@@ -18,8 +18,8 @@ driver = webdriver.Chrome()
 driver.get('https://www.facebook.com')
 
 # Replace these with your Facebook credentials
-username = 'rajkale743@gmail.com'
-password = 'King@6369'
+username = input("Please enter your Email or Mobile No. : ")
+password = input("Please enter your Password : ")
 
 # Find the username and password fields and enter your credentials
 username_field = driver.find_element(By.ID, 'email')
